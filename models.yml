@@ -1,0 +1,8 @@
+rpi-zero-2-w:
+  dtb-target-string: rpi-zero-2-w
+  kernel-match-string: kernel\d+l?(-alt)?.img
+  qemu:
+    bin: qemu-system-aarch64
+    machine: raspi3b
+    cpu: cortex-a53
+    memory: 1G

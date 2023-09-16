@@ -1,0 +1,12 @@
+*
+!pi-headless.py
+!models.yml
+!.gitignore
+!README.md
+!requirements.txt
+!scripts/
+scripts/*
+!*.example
+!scripts/dm.py
+!scripts/if.py
+!scripts/dnsmasq.sh

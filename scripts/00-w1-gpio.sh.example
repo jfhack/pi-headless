@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd "$(dirname "${BASH_SOURCE[0]}")"
+
+export DEBIAN_FRONTEND=noninteractive
+
+LINE='dtoverlay=w1-gpio'
+FILE='/boot/config.txt'
+sudo grep -qF "$LINE" "$FILE" ||  echo "$LINE" | sudo tee -a "$FILE"

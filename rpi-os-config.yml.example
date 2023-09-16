@@ -1,0 +1,10 @@
+user: rpi
+password: raspberry.password
+enable-ssh: true
+hostname: raspberry
+wifi:
+  name: wifi.example
+  password: wifi.password
+  country: GB
+keyboard-layout: us
+timezone: UTC
